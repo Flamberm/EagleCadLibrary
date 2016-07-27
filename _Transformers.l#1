@@ -1698,7 +1698,7 @@ manufacturer Siemens</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="FLYBACK" package="EE20_P1_S1-REV-4PIN">
+<device name="" package="EE20_P1_S1-REV-4PIN">
 <connects>
 <connect gate="G$1" pin="P1-1" pad="1-1"/>
 <connect gate="G$1" pin="P1-2" pad="1-2"/>

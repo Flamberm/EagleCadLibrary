@@ -6,11 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<<<<<<< HEAD
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
-=======
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
->>>>>>> origin/master
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2037,8 +2033,6 @@ type SQP-5,</description>
 <wire x1="1" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="21"/>
 </package>
-<<<<<<< HEAD
-=======
 <package name="SWT-2-2PIN-WBUTTON">
 <text x="-3.015" y="4.365" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.015" y="-5.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
@@ -2068,7 +2062,6 @@ type SQP-5,</description>
 <circle x="0" y="0" radius="6.825" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="7.925" width="0.127" layer="21"/>
 </package>
->>>>>>> origin/master
 </packages>
 <symbols>
 <symbol name="LM2678T-ADJ">
@@ -3405,26 +3398,6 @@ type SQP-5,</description>
 <pin name="VB" x="15.24" y="10.16" length="short" direction="sup" rot="R180"/>
 <pin name="LIN" x="-15.24" y="-12.7" length="short" direction="in"/>
 </symbol>
-<symbol name="SWT-02-2PIN">
-<wire x1="-4.953" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="3.175" y2="1.905" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.302" y2="0" width="0.254" layer="94"/>
-<wire x1="3.302" y1="0" x2="4.953" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="1.905" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="3.175" x2="0" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="6.35" x2="1.905" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.905" y1="6.35" x2="0" y2="6.35" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="6.35" x2="-1.905" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="6.35" x2="0" y2="4.445" width="0.1524" layer="94"/>
-<wire x1="0" y1="6.35" x2="-1.905" y2="6.35" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.635" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="0" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="0.635" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<text x="3.175" y="5.715" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<text x="-1.905" y="-6.985" size="1.778" layer="96">&gt;NAME</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LM2678T-ADJ">
@@ -4601,22 +4574,6 @@ Source:</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SWT-2PIN-BUTTON" prefix="SW">
-<gates>
-<gate name="G$1" symbol="SWT-02-2PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SWT-2-2PIN-WBUTTON">
-<connects>
-<connect gate="G$1" pin="2" pad="4"/>
-<connect gate="G$1" pin="3" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
