@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -85,10 +85,10 @@ General Instrument, Semikron, Diotec, Fagor&lt;p&gt;
 <wire x1="-2.2606" y1="-2.54" x2="-1.6002" y2="-2.54" width="0.1524" layer="51" curve="180"/>
 <wire x1="1.524" y1="2.54" x2="2.1844" y2="2.54" width="0.1524" layer="51" curve="-180"/>
 <wire x1="2.1844" y1="2.54" x2="2.8448" y2="2.54" width="0.1524" layer="51" curve="180"/>
-<pad name="+" x="-2.54" y="2.54" drill="0.9" diameter="2.1844"/>
-<pad name="AC1" x="2.54" y="2.54" drill="0.9" diameter="2.1844" shape="octagon"/>
-<pad name="-" x="2.54" y="-2.54" drill="0.9" diameter="2.1844" shape="square"/>
-<pad name="AC2" x="-2.54" y="-2.54" drill="0.9" diameter="2.1844" shape="octagon"/>
+<pad name="+" x="-2.54" y="2.54" drill="0.8" diameter="2.1844"/>
+<pad name="AC1" x="2.54" y="2.54" drill="0.8" diameter="2.1844" shape="octagon"/>
+<pad name="-" x="2.54" y="-2.54" drill="0.8" diameter="2.1844" shape="square"/>
+<pad name="AC2" x="-2.54" y="-2.54" drill="0.8" diameter="2.1844" shape="octagon"/>
 <text x="-4.6736" y="-2.5146" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.3782" y="-0.6604" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-4.445" y1="-4.445" x2="4.445" y2="4.445" layer="43"/>

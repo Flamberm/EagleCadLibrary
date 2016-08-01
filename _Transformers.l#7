@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1339,6 +1339,43 @@ manufacturer Siemens</description>
 <rectangle x1="-2.54" y1="4.445" x2="2.54" y2="5.715" layer="21"/>
 <rectangle x1="-2.54" y1="-5.715" x2="2.54" y2="-4.445" layer="21"/>
 </package>
+<package name="EE20_P1_S1-REV-4PIN">
+<pad name="2-2" x="-7.62" y="-4.445" drill="0.5" diameter="2.54" shape="octagon"/>
+<pad name="2-1" x="7.62" y="-4.445" drill="0.5" diameter="2.54" shape="octagon"/>
+<pad name="1-2" x="7.62" y="5.715" drill="0.5" diameter="2.54" shape="octagon"/>
+<pad name="1-1" x="-7.62" y="5.715" drill="0.5" diameter="2.54" shape="octagon"/>
+<wire x1="-11.43" y1="-6.35" x2="11.43" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-6.35" x2="11.43" y2="7.62" width="0.127" layer="21"/>
+<wire x1="11.43" y1="7.62" x2="-11.43" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="7.62" x2="-11.43" y2="-6.35" width="0.127" layer="21"/>
+<text x="10.16" y="-1.27" size="1.27" layer="21" rot="R90">EE20</text>
+<wire x1="-7.62" y1="-1.905" x2="7.62" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="-7.62" y1="-0.635" x2="7.62" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="7.62" y1="-0.635" x2="7.62" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="-7.62" y1="0.635" x2="7.62" y2="0.635" width="0.254" layer="21"/>
+<wire x1="-7.62" y1="1.905" x2="0.889" y2="1.905" width="0.254" layer="21"/>
+<wire x1="-7.62" y1="1.905" x2="-7.62" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-7.62" y1="-1.905" x2="-7.62" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-7.62" y1="-3.81" x2="-7.62" y2="-1.905" width="0.254" layer="21"/>
+<wire x1="7.62" y1="-1.905" x2="7.62" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="-7.62" y1="3.175" x2="-7.62" y2="5.08" width="0.254" layer="21"/>
+<wire x1="1.016" y1="1.905" x2="7.62" y2="1.905" width="0.254" layer="21"/>
+<wire x1="7.62" y1="1.905" x2="7.62" y2="3.175" width="0.254" layer="21"/>
+<wire x1="7.62" y1="3.175" x2="0" y2="3.175" width="0.254" layer="21"/>
+<wire x1="0" y1="3.175" x2="-0.254" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-0.254" y1="3.175" x2="-0.381" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-0.381" y1="3.175" x2="-0.254" y2="3.175" width="0.254" layer="21"/>
+<wire x1="7.62" y1="3.175" x2="7.62" y2="5.08" width="0.254" layer="21"/>
+<circle x="5.938" y="-2.667" radius="0.254" width="0.254" layer="21"/>
+<circle x="-6.223" y="3.937" radius="0.254" width="0.254" layer="21"/>
+<circle x="-7.62" y="-4.445" radius="0.635" width="0.254" layer="21"/>
+<circle x="7.62" y="-4.445" radius="0.635" width="0.254" layer="21"/>
+<circle x="-7.62" y="5.715" radius="0.635" width="0.254" layer="21"/>
+<circle x="7.62" y="5.715" radius="0.635" width="0.254" layer="21"/>
+<wire x1="-0.381" y1="3.175" x2="-7.62" y2="3.175" width="0.254" layer="21"/>
+<rectangle x1="-7.62" y1="1.905" x2="7.62" y2="3.175" layer="21"/>
+<rectangle x1="-7.62" y1="-1.905" x2="7.62" y2="-0.635" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TRANS_1_2">
@@ -1650,12 +1687,23 @@ manufacturer Siemens</description>
 <gate name="G$1" symbol="TRANS_1_1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="EE20_P1_S1">
+<device name="FORWARD" package="EE20_P1_S1">
 <connects>
 <connect gate="G$1" pin="P1-1" pad="1"/>
 <connect gate="G$1" pin="P1-2" pad="5"/>
 <connect gate="G$1" pin="S1-1" pad="10"/>
 <connect gate="G$1" pin="S1-2" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="EE20_P1_S1-REV-4PIN">
+<connects>
+<connect gate="G$1" pin="P1-1" pad="1-1"/>
+<connect gate="G$1" pin="P1-2" pad="1-2"/>
+<connect gate="G$1" pin="S1-1" pad="2-1"/>
+<connect gate="G$1" pin="S1-2" pad="2-2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1937,6 +1985,17 @@ manufacturer Siemens</description>
 <connect gate="1" pin="3" pad="2"/>
 <connect gate="1" pin="4" pad="3"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EE20_P1_S!-FLAYBACK">
+<gates>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
