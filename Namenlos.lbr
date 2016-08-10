@@ -1652,8 +1652,8 @@ type SQP-5,</description>
 <text x="-16.51" y="3.81" size="1.27" layer="21">24</text>
 </package>
 <package name="18*36.5_7.62">
-<pad name="P$1" x="0" y="-3.81" drill="0.5" diameter="2.54" shape="square"/>
-<pad name="P$2" x="0" y="3.81" drill="0.5" diameter="2.54" shape="octagon"/>
+<pad name="P$1" x="0" y="-3.81" drill="1.1" diameter="2.54" shape="square"/>
+<pad name="P$2" x="0" y="3.81" drill="1.1" diameter="2.54" shape="octagon"/>
 <wire x1="-1.27" y1="10.16" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-3.81" x2="-1.27" y2="-10.16" width="0.127" layer="21"/>

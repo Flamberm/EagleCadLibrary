@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2137,6 +2137,22 @@ type SQP-5,</description>
 <pad name="8" x="-3.81" y="3.81" drill="0.9" shape="long" rot="R90"/>
 <text x="-5.3594" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.81" y="-0.9906" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="NTC-D12">
+<wire x1="-5.234071875" y1="0.898025" x2="5.06723125" y2="0.898025" width="0.1524" layer="21"/>
+<wire x1="5.234071875" y1="0.898025" x2="5.234071875" y2="-0.898025" width="0.1524" layer="21"/>
+<wire x1="-5.234071875" y1="-0.898025" x2="-5.234071875" y2="0.898025" width="0.1524" layer="21"/>
+<wire x1="5.234071875" y1="-0.898025" x2="1.796046875" y2="-1.796046875" width="0.1524" layer="21"/>
+<wire x1="5.234071875" y1="-0.898025" x2="-5.06723125" y2="-0.898025" width="0.1524" layer="21"/>
+<wire x1="1.796046875" y1="-1.796046875" x2="-1.796046875" y2="-1.796046875" width="0.1524" layer="21"/>
+<wire x1="-1.796046875" y1="-1.796046875" x2="-5.234071875" y2="-0.898025" width="0.1524" layer="21"/>
+<wire x1="5.234071875" y1="0.898025" x2="1.796046875" y2="1.796046875" width="0.1524" layer="21"/>
+<wire x1="1.796046875" y1="1.796046875" x2="-1.796046875" y2="1.796046875" width="0.1524" layer="21"/>
+<wire x1="-1.796046875" y1="1.796046875" x2="-5.234071875" y2="0.898025" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1.1" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="2" x="3.81" y="0" drill="1.1" diameter="1.6764" shape="octagon" rot="R90"/>
+<text x="-3.175" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.70105625" y="-4.336053125" size="1.27" layer="21" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
