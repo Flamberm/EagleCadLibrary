@@ -805,12 +805,12 @@
 <wire x1="1.5" y1="2.5" x2="2.5" y2="1.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="1.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<smd name="P$1" x="1.616" y="2.25" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="P$2" x="0" y="2.25" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="P$3" x="-1.616" y="2.25" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="P$4" x="-1.616" y="-2.25" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="P$5" x="0" y="-2.25" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="P$6" x="1.616" y="-2.25" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="C1" x="1.616" y="2.25" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="C2" x="0" y="2.25" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="C3" x="-1.616" y="2.25" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="A3" x="-1.616" y="-2.25" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="A2" x="0" y="-2.25" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="A1" x="1.616" y="-2.25" dx="2" dy="1" layer="1" rot="R90"/>
 <circle x="0" y="0" radius="2.236065625" width="0.127" layer="21"/>
 <text x="-3" y="-2" size="1.016" layer="25" rot="R90">&gt;NAME</text>
 <text x="4" y="-2" size="1.016" layer="27" rot="R90">&gt;VALUE</text>
@@ -2254,6 +2254,23 @@ Copal</description>
 <wire x1="-5.25" y1="-1.75" x2="-4.75" y2="-1.75" width="0.127" layer="21"/>
 <wire x1="-4.75" y1="-1.75" x2="-4.75" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="-4.75" y1="-1.5" x2="-5.25" y2="-1.5" width="0.127" layer="21"/>
+</package>
+<package name="LED-1W">
+<smd name="THM" x="0" y="0" dx="6" dy="6" layer="1" roundness="100"/>
+<smd name="A" x="-6.685" y="-1" dx="2" dy="2.54" layer="1" rot="R90"/>
+<smd name="K" x="6.685" y="1.1" dx="2" dy="2.54" layer="1" rot="R90"/>
+<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.5" width="0.127" layer="21"/>
+<wire x1="-3.9" y1="1.2" x2="-4.5" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="1.2" x2="-4.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-0.5" x2="-5.7" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-5.7" y1="-0.5" x2="-5.7" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-5.7" y1="-1.6" x2="-3.7" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="3.9" y1="-1.2" x2="4.5" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-1.2" x2="4.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="0.5" x2="5.7" y2="0.5" width="0.127" layer="21"/>
+<wire x1="5.7" y1="0.5" x2="5.7" y2="1.6" width="0.127" layer="21"/>
+<wire x1="5.7" y1="1.6" x2="3.7" y2="1.6" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -3981,22 +3998,6 @@ Copal</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED1206">
-<gates>
-<gate name="G$1" symbol="LED1206" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LED1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SWT-2" prefix="S">
 <gates>
 <gate name="G$1" symbol="SWT-02" x="0" y="7.62"/>
@@ -4209,15 +4210,42 @@ Copal</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED5730">
+<deviceset name="LED">
 <gates>
 <gate name="G$1" symbol="LED1206" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="LED5730">
+<device name="5630" package="LED5730">
 <connects>
 <connect gate="G$1" pin="A" pad="A A1"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1206" package="LED1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1W" package="LED-1W">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5050" package="LED5050">
+<connects>
+<connect gate="G$1" pin="A" pad="A1 A2 A3"/>
+<connect gate="G$1" pin="C" pad="C1 C2 C3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4241,31 +4269,6 @@ Copal</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED5050_COMMON" prefix="D" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="LED1206" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="L" package="LED5050">
-<connects>
-<connect gate="G$1" pin="A" pad="P$4 P$5 P$6"/>
-<connect gate="G$1" pin="C" pad="P$1 P$2 P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="S" package="LED505_SMALLPADS">
-<connects>
-<connect gate="G$1" pin="A" pad="P$4 P$5 P$6"/>
-<connect gate="G$1" pin="C" pad="P$1 P$2 P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LED5050_SEPARATE" prefix="D" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LED1206" x="-7.62" y="0"/>
@@ -4275,12 +4278,12 @@ Copal</description>
 <devices>
 <device name="L" package="LED5050">
 <connects>
-<connect gate="G$1" pin="A" pad="P$6"/>
-<connect gate="G$1" pin="C" pad="P$1"/>
-<connect gate="G$2" pin="A" pad="P$5"/>
-<connect gate="G$2" pin="C" pad="P$2"/>
-<connect gate="G$3" pin="A" pad="P$4"/>
-<connect gate="G$3" pin="C" pad="P$3"/>
+<connect gate="G$1" pin="A" pad="A1"/>
+<connect gate="G$1" pin="C" pad="C1"/>
+<connect gate="G$2" pin="A" pad="A2"/>
+<connect gate="G$2" pin="C" pad="C2"/>
+<connect gate="G$3" pin="A" pad="A3"/>
+<connect gate="G$3" pin="C" pad="C3"/>
 </connects>
 <technologies>
 <technology name=""/>
