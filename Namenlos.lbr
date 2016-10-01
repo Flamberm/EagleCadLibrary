@@ -2275,6 +2275,7 @@ Copal</description>
 <wire x1="1.27" y1="1.27" x2="6.35" y2="-1.27" width="0.254" layer="21"/>
 <wire x1="-7.62" y1="-3.81" x2="7.62" y2="-3.81" width="0.254" layer="21"/>
 <wire x1="-7.62" y1="3.81" x2="7.62" y2="3.81" width="0.254" layer="21"/>
+</package>
 <package name="LED-1W">
 <smd name="THM" x="0" y="0" dx="6" dy="6" layer="1" roundness="100"/>
 <smd name="A" x="-6.685" y="-1" dx="2" dy="2.54" layer="1" rot="R90"/>
