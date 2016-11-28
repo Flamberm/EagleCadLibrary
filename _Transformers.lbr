@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1973,15 +1973,24 @@ manufacturer Siemens</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="INDUCTOR-25-25">
+<deviceset name="INDUCTOR" prefix="L">
 <gates>
 <gate name="G$1" symbol="INDUCTOR_1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="INDUCTOR_25-25">
+<device name="25*25" package="INDUCTOR_25-25">
 <connects>
 <connect gate="G$1" pin="1" pad="P$2"/>
 <connect gate="G$1" pin="2" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EFD-25" package="EF25_P1_S1">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
