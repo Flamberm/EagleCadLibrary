@@ -2112,7 +2112,7 @@ manufacturer Siemens</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="EF25_P1_S1">
+<deviceset name="EF25_P1_S1" prefix="T">
 <gates>
 <gate name="G$1" symbol="TRANS_1_1" x="0" y="0"/>
 </gates>
