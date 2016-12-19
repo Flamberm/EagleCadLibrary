@@ -944,6 +944,50 @@ manufacturer Siemens</description>
 <text x="8.89" y="6.35" size="1.27" layer="21">5</text>
 <text x="-8.89" y="6.35" size="1.27" layer="21">8</text>
 </package>
+<package name="EE25_8PIN_HORIZ">
+<wire x1="-3.175" y1="3.81" x2="-3.175" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="-3.175" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="0" y1="6.35" x2="0" y2="-6.35" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="3.81" x2="-1.27" y2="3.81" width="0.254" layer="21"/>
+<wire x1="1.27" y1="2.794" x2="1.27" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="3.175" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="1.27" y1="2.794" x2="3.175" y2="2.794" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="3.175" y2="2.794" width="0.254" layer="21"/>
+<text x="-9" y="13" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="13.065" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.429" y="-9.422" size="1.778" layer="21" ratio="10">EF25</text>
+<text x="-8.43" y="8.39" size="1.27" layer="21" ratio="10">1</text>
+<text x="-8.93" y="-8.66" size="1.27" layer="21" ratio="10">4</text>
+<text x="7.795" y="-8.66" size="1.27" layer="21" ratio="10">5</text>
+<text x="6.795" y="8.39" size="1.27" layer="21" ratio="10">8</text>
+<rectangle x1="-3.175" y1="-3.81" x2="-1.27" y2="3.81" layer="21"/>
+<rectangle x1="1.27" y1="-2.54" x2="3.175" y2="2.794" layer="21"/>
+<wire x1="-12.5" y1="-9.96" x2="-9.96" y2="-12.5" width="0.127" layer="21" curve="90"/>
+<wire x1="-9.96" y1="-12.5" x2="9.96" y2="-12.5" width="0.127" layer="21"/>
+<wire x1="9.96" y1="-12.5" x2="12.5" y2="-9.96" width="0.127" layer="21" curve="90"/>
+<wire x1="12.5" y1="-9.96" x2="12.5" y2="9.96" width="0.127" layer="21"/>
+<wire x1="12.5" y1="9.96" x2="9.96" y2="12.5" width="0.127" layer="21" curve="90"/>
+<wire x1="9.96" y1="12.5" x2="-9.96" y2="12.5" width="0.127" layer="21"/>
+<wire x1="-9.96" y1="12.5" x2="-12.5" y2="9.96" width="0.127" layer="21" curve="90"/>
+<wire x1="-12.5" y1="9.96" x2="-12.5" y2="-9.96" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="7.62" x2="-8.89" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-7.62" x2="-6.35" y2="-10.16" width="0.127" layer="21" curve="90"/>
+<wire x1="-6.35" y1="-10.16" x2="6.35" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-10.16" x2="8.89" y2="-7.62" width="0.127" layer="21" curve="90"/>
+<wire x1="8.89" y1="-7.62" x2="8.89" y2="7.62" width="0.127" layer="21"/>
+<wire x1="8.89" y1="7.62" x2="6.35" y2="10.16" width="0.127" layer="21" curve="90"/>
+<wire x1="6.35" y1="10.16" x2="-6.35" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="10.16" x2="-8.89" y2="7.62" width="0.127" layer="21" curve="90"/>
+<pad name="1" x="-9.98" y="7.46" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="2" x="-9.98" y="2.46" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="3" x="-9.98" y="-2.54" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="4" x="-9.98" y="-7.54" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="5" x="9.98" y="-7.54" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="6" x="9.98" y="-2.54" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="7" x="9.98" y="2.46" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="8" x="9.98" y="7.46" drill="1.1" diameter="1.9304" shape="octagon"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TRANS_1_2">
@@ -1160,6 +1204,22 @@ manufacturer Siemens</description>
 <connect gate="1" pin="2" pad="4"/>
 <connect gate="1" pin="3" pad="2"/>
 <connect gate="1" pin="4" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INDUCTOR">
+<gates>
+<gate name="G$1" symbol="INDUCTOR_1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="EE25" package="EE25_8PIN_HORIZ">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>

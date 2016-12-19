@@ -4296,20 +4296,6 @@ Copal</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON-5.08X3">
-<gates>
-<gate name="G$1" symbol="KLV" x="0" y="5.08"/>
-<gate name="G$2" symbol="KLV" x="0" y="0"/>
-<gate name="G$3" symbol="KLV" x="0" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="CON-5.08X3">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SHORT">
 <gates>
 <gate name="G$1" symbol="SHORT" x="0" y="0"/>
