@@ -1154,17 +1154,28 @@ manufacturer Siemens</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TRANS-1/1">
+<deviceset name="TRANS-1/1" prefix="T">
 <gates>
 <gate name="G$1" symbol="TRANS_1_1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="32.5-27.5-27.5">
+<device name="220-12" package="32.5-27.5-27.5">
 <connects>
 <connect gate="G$1" pin="P1-1" pad="1"/>
 <connect gate="G$1" pin="P1-2" pad="5"/>
 <connect gate="G$1" pin="S1-1" pad="7"/>
 <connect gate="G$1" pin="S1-2" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EFD25-10" package="EFD25_10PIN">
+<connects>
+<connect gate="G$1" pin="P1-1" pad="2"/>
+<connect gate="G$1" pin="P1-2" pad="4"/>
+<connect gate="G$1" pin="S1-1" pad="6"/>
+<connect gate="G$1" pin="S1-2" pad="10"/>
 </connects>
 <technologies>
 <technology name=""/>
