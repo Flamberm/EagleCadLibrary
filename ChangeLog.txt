@@ -1,6 +1,487 @@
 EAGLE Library ChangeLog
 =======================
 
+2017-01-06
+  * con-amp-micromatch.lbr: EAGLE 7.7.0
+    corrected: added mounting hole for plastic holder pin
+    several female connectors
+
+2016-12-16
+  * optocoupler.lbr: EAGLE 7.7.0
+    corrected: LTV816S.dev
+    Assigned correct package DIL4-SMD
+
+2016-11-21
+  * crystal-geyer_V1_0.lbr: EAGLE 7.7.0
+    new library contribution
+
+2016-11-21
+  * pinhead.lbr: EAGLE 7.7.0
+    corrected:
+    PINHD-2x22.dev
+    PINHD-2x25.dev
+    Some of the pins were map incorrectly
+
+2016-10-05
+  * con-avx.lbr: EAGLE 7.7.0
+    corrected: 009175002.pac
+    wires in layer Pads deleted
+
+2016-09-08
+  * con-samtec.lbr: EAGLE 7.6.2
+    corrected: TSW-101-02-S-D.pac
+    package had wrong number of pads
+
+2016-09-08
+  * ref-packages.lbr: EAGLE 7.6.2
+    added:
+    AR.pac, CBB.pac, CUS.pac,
+    GDH_S-PBGA-N256.pac, GHH_S-PBGA-N179.pac,
+    GTS_S-PBGA-N288.pac, PBGA-N64.pac, S-PBGA-N113.pac,
+    ZCE_S-PBGA-N361.pac, ZCH(S-PBGA-N196).pac,
+    ZDH_S-PBGA-N256.pac, ZEN_S-PBGA-N196.pac,
+    ZKB_S-PBGA-N256-pac, ZUN_SPBGA-N561.pac,
+    ZWT_S-PBGA-N361.pac
+    all from texas.lbr
+
+2016-09-08
+  * texas.lbr: EAGLE 7.6.2
+    corrected: AAR.pac, CBB.pac, CUS.pac,
+    GDH_S-PBGA-N256.pac, GHH_S-PBGA-N179.pac,
+    GTS_S-PBGA-N288.pac, PBGA-N64.pac, S-PBGA-N113.pac,
+    ZCE_S-PBGA-N361.pac, ZCH(S-PBGA-N196).pac,
+    ZDH_S-PBGA-N256.pac, ZEN_S-PBGA-N196.pac,
+    ZKB_S-PBGA-N256-pac, ZUN_SPBGA-N561.pac,
+    ZWT_S-PBGA-N361.pac
+    the cream frame was not defined
+
+2016-08-11
+  * logo.lbr: EAGLE 7.6.2
+    added:
+    CS-2016-LOGO-5MM(pac,sym,dev)
+    CS-2016-LOGO-10MM(pac,sym,dev)
+    CS-2016-LOGO-15MM(pac,sym,dev)
+    CS-2016-LOGO-20MM(pac,sym,dev)
+
+2016-06-21
+  * linear-technology.lbr: EAGLE 7.6.1
+    corrected: SSOP16.pac
+    the order of the SMDs was mixed up
+
+2016-06-07
+  * led.lbr: EAGLE 7.6.0
+    corrected: ML-E.pac
+    the TH pad has its cream opening on tCream layer now
+
+2016-05-25
+  * pinhead.lbr: EAGLE 7.6.0
+    corrected: 2X30/90.pac
+    pins 41 to 60 were incorrectly placed
+
+2016-05-25
+  * pinhead.lbr: EAGLE 7.6.0
+    corrected: 2X24/90.pac
+    pins 41 to 48 were incorrectly placed
+
+2016-05-25
+  * pinhead.lbr: EAGLE 7.6.0
+    corrected: 2X22/90.pac
+    pins 41 to 44 were incorrectly placed.
+
+2016-05-23
+  * pinhead.lbr: EAGLE 7.6.0
+    corrected: 2X25/90.pac
+    pins 41 to 50 were incorrectly placed.
+
+2016-02-10
+  * con-molex.lbr: EAGLE 7.5.2
+    corrected: 87758-1616.dev
+    connected pins and changed add level of the pins to always
+
+2016-02-10
+  * 74xx-eu.lbr: EAGLE 7.5.2
+    corrected: 74*540.dev
+    added the word inverting to the description
+
+2016-02-10
+  * 74xx-us.lbr: EAGLE 7.5.2
+    corrected: 74*540.dev
+    added the word inverting to the description
+
+2016-01-28
+  * test-mate.lbr: EAGLE 7.5.2
+    created: by Eurocircuits
+
+2015-12-21
+  * led.lbr: EAGLE 7.5.1
+    corrected: PLCC2.PAC
+    solder stop and cream frame mask aligned
+
+2015-12-18
+  * murata-filter.lbr: EAGLE 7.5.1
+    corrected:
+    added solder cream mask CSTCR6M.PAC
+
+2015-11-30
+  * jumper.lbr: Eagle 7.5.1
+    corrected:
+    Pad names JP2Q.pac
+
+2015-11-25
+  * microchip.lbr: Eagle 7.5.1
+    corrected:
+    Pin-Pad connection PIC16F1937P
+
+2015-08-06
+  * led.lbr: Eagle 7.3.3
+    changed addlevel to always:
+    LZ4-00WW10.DEV
+
+2015-07-06
+  * 74xx-little-de.lbr: Eagle 7.3.2
+    added:
+    74*2G79.DEV
+
+2015-07-06
+  * 74xx-little-us.lbr: Eagle 7.3.2
+    added: 74*1G79 from 74xx-little-de.lbr
+
+2015-07-06
+  * 74xx-little-us.lbr: Eagle 7.3.2
+    renamed: 74*1G79 to 74*2G79.DEV
+
+2015-06-16
+  * led.lbr: Eagle 7.3.2
+    added:
+    PC56H19_V0.DEV
+    PC56H19_V0.PAC
+
+2015-06-16
+  * dom-key.lbr: Eagle 7.3.2
+    added:
+    DOM-KEY.DEV
+    FINGERPAD-2A.DEV
+    FINGERPAD-2B.DEV
+    FINGERPAD-3.DEV
+    DOM-KEY.PAC
+    FINGERPAD-2A.PAC
+    FINGERPAD-2B.PAC
+    FINGERPAD-3.PAC
+
+2015-06-15
+  * national-semiconductor.lbr: Eagle 7.3.2
+    corrected:
+    Pin-Pad connection LP2950.DEV Variant D / Z
+    Pad-Name TO252.PAC
+
+2015-03-16
+  * toshiba.lbr: Eagle 7.2.10
+    added:
+    TB6600HG.DEV
+    HZIP25-P-1.00F.PAC
+
+2015-03-06
+  * inductor-coilcraft.lbr: Eagle 7.2.10
+    added:
+    MSS7341.DEV
+    MSS7341.PAC
+
+2015-02-25
+  * rohm.lbr: Eagle 7.2.1
+    added:
+    BD622*HFP.DEV
+    BD6220.DEV
+
+2015-02-05
+  * transistor-power.lbr: Eagle 7.2.1
+    added:
+    SI3481DV.DEV
+    TSOP-6.PAC.PAC
+
+2015-02-05
+  * transistor.lbr: Eagle 7.2.1
+    added:
+    BCR22PN.DEV
+    SOT363-INFINION.PAC
+
+2015-02-05
+  * infineon.lbr: Eagle 7.2.1
+    added:
+    IPB180N06S4-H1.DEV
+    PG-TO263-7-3.PAC
+
+2014-12-18
+  * logo.lbr: Eagle 7.2.1
+    added:
+    BIOHAZARD.DEV
+    BIOHAZARD_10.00.DEV
+    CE-4MM.DEV
+    CE_5MM.DEV
+    CE_7.3MM.DEV
+    CE_20MM.DEV
+    COPYRIGHT-2.4MM.DEV
+    COPYRIGHT-4MM.DEV
+    COPYRIGHT-8MM.DEV
+    CS-EAGLE-HOLE-LOGO-43MM.DEV
+    CS-LOGO-41MM.DEV
+    CS-LOGO-43MM.DEV
+    CS-LOGO-45MM.DEV
+    CS-LOGO-TOP-8MM.DEV
+    CS-LOGO-TOP-43MM.DEV
+    CSA_10MM.DEV
+    C_TICK-3MM.DEV
+    C_TICK-5MM.DEV
+    EAGLE-CS-LOGO-43.DEV
+    EAGLE-PLC-8MM.DEV
+    EAGLE-PLC-10MM.DEV
+    EAGLE-PLC-12MM.DEV
+    EAGLE-PLC-15MM.DEV
+    EAGLE-PLC-30MM.DEV
+    EAGLE-TOP-8MM.DEV
+    EAGLE-TOP-10MM.DEV
+    EAGLE-TOP-12MM.DEV
+    EAGLE-TOP-15MM.DEV
+    ESD.DEV
+    ESD_10.00.DEV
+    FCC_6.1X16MM.DEV
+    FCC_10X4.175MM.DEV
+    FCC_20X8.35MM.DEV
+    MUELLEIMER.DEV
+    MUELLEIMER_10.00.DEV
+    MUELLTONNE.DEV
+    MUELLTONNE_10.00.DEV
+    RADIOACTIVE.DEV
+    RADIOACTIVE_10.00.DEV
+    RECYCLING.DEV
+    RECYCLING_10.00.DEV
+    TONNE.DEV
+    TONNE_10.00.DEV
+    VDE.DEV
+    VDE-GS.DEV
+    VDE-GS_10.00.DEV
+    VDE_10.00.DEV
+    CE_5MM.PAC
+    CE_7.3MM.PAC
+    CE_20MM.PAC
+    COPYRIGHT-2.4MM.PAC
+    COPYRIGHT-4MM.PAC
+    COPYRIGHT-8MM.PAC
+    CS-LOGO-TOP-8MM.PAC
+    CSA_10MM.PAC
+    C_TICK-3MM.PAC
+    C_TICK-5MM.PAC
+    FCC_6.1X16MM.PAC
+
+2014-12-15
+  * led.lbr: Eagle 7.2.1
+    added:
+    LUXEON_5630.DEV
+    LUXEON_5630.PAC
+
+2014-12-04
+  * atmel.lbr: Eagle 7.2.1
+    corrected pad coodinates: VQFP64.PAC
+
+2014-10-28
+  * display-lcd.lbr: Eagle 7.1.3
+    corrected PADs: LCD-DIP128-64.PAC
+
+2014-10-28
+  * display-kingbright.lbr: Eagle 7.1.2
+    corrected pad position:
+    SA10-21.PAC
+    SA18-11.PAC
+
+2014-10-24
+  * analog-devices.lbr: Eagle 7.1.2
+    connected pac-variant R & RU: ADG413.DEV
+
+2014-10-23
+  * con-molex.lbr: Eagle 7.1.2
+    added:
+    0446200001.DEV
+    0446200002.DEV
+    0446200001.PAC
+    0446200002.PAC
+
+2014-10-23
+  * on-semiconductor.lbr: Eagle 7.1.2
+    added:
+    SA571*.DEV
+
+2014-10-23
+  * con-lumberg.lbr: Eagle 7.1.2
+    added:
+    1613_14.DEV
+    1613_14.PAC
+
+2014-10-20
+  * battery.lbr: Eagle 7.1.2
+    added:
+    BATTERY-HOLDER_11.6MM.DEV
+    CH23-1220LF.DEV
+    CH291-1220LF.DEV
+    CELL_RETAINER_11.6MM.PAC
+    CH23-1220LF.PAC
+    CH291-1220LF.PAC
+
+2014-10-17
+  * led.lbr: Eagle 7.1.2
+    added:
+    LZ4-40U600.DEV
+    LED3MM_H.PAC
+    LED3MM_H7,5MM.PAC
+    LED5MM_H6,0MM.PAC
+    LZ4-40U600.PAC
+
+2014-10-17
+  * con-molex.lbr: Eagle 7.1.2
+    corrected SMD koordinates pad 1 .. 15: 679105700.PAC
+
+2014-10-15
+  * micro-renesas.lbr: Eagle 7.1.2
+    added:
+    R5F10PBDYNA.DEV
+    RL78/F13-20.DEV
+    RL78/F13-30.DEV
+    RL78/F13-32.DEV
+    RL78/F13-48.DEV
+    RL78/F13-64.DEV
+    RL78/F13-80.DEV
+    RL78/F14-30.DEV
+    RL78/F14-32.DEV
+    RL78/F14-48.DEV
+    RL78/F14-64.DEV
+    RL78/F14-80.DEV
+    RL78/F14-100.DEV
+    P-HVQFN32-5X5.PAC
+    P-HVQFN48-7X7.PAC
+    P-LFQFP48-7X7.PAC
+    P-LFQFP64-10X10.PAC
+    P-LFQFP80-12X12.PAC
+    P-LFQFP100-14X14.PAC
+    P-LSSOP30-6.1X9.7.PAC
+    PP_SSOP20_7.62MM.PAC
+
+2014-10-10
+  * texas.lbr: Eagle 7.1.2
+    added:
+    ADS7042.DEV
+    DCU_(R-PDSO-G8).PAC
+    RUG_(R-PQFP-N8).PAC
+    ADS8684.DEV
+    ADS8688.DEV
+
+2014-10-08
+  * con-molex.lbr: Eagle 7.1.2
+    added:
+    VHDCI-68.DEV (73412-0110)
+    VHDCI-68.PAC
+
+2014-10-06
+  * on-semiconductor.lbr: Eagle 7.1.2
+    added:
+    SA571.DEV
+    DIL16.PAC
+    SO16WB.PAC
+
+2014-10-06
+  * avago.lbr: Eagle 7.1.2
+    added:
+    HSMS-285B.DEV
+    HSMS-285C.DEV
+    HSMS-285E.DEV
+    HSMS-285F.DEV
+    HSMS-285K.DEV
+    HSMS-285L.DEV
+    HSMS-285P.DEV
+    HSMS-285R.DEV
+    HSMS-2850.DEV
+    HSMS-2852.DEV
+    HSMS-2853.DEV
+    HSMS-2854.DEV
+    HSMS-2855.DEV
+    SOT23.PAC
+    SOT143_AVAGO.PAC
+    SOT323.PAC
+    SOT363.PAC
+
+2014-10-06
+  * con-coax.lbr: Eagle 7.1.2
+    added:
+    734120110.DEV
+    734120110.PAC
+
+2014-10-01
+  * cypress.lbr: Eagle 7.1.1
+    added:
+    CY8C58LPXXX.DEV
+    CY8C58LPXXX_5JTAG.DEV
+    CY8C58LPXXX_USB_4JTAG.DEV
+    CY8C58LPXXX_USB_5JTAG.DEV
+    TQFP100-14X14.PAC
+
+2014-09-26
+  * linear-technology.lbr: Eagle 7.1.1
+    added:
+    LT1634.DEV
+    TO92.PAC.PAC
+
+2014-09-24
+  * linear-technology.lbr: Eagle 7.1.1
+    added:
+    LT1991.DEV
+
+2014-09-23
+  * rcl.lbr: Eagle 7.1.1
+    delete wire on layer tKeepout: C01005.PAC
+
+2014-09-19
+  * con-amp.lbr: Eagle 7.1.1
+    connection corrected: MTA06-100.DEV
+
+2014-09-08
+  * resistor.lbr: Eagle 7.1.1
+    added - UPDATE : R-EU_.DEV, R-US_, C-EU.DEV, C-US.DEV,
+    1812X7R.PAC
+    C0201.PAC
+    C01005.PAC
+    C1808.PAC
+    C3640.PAC
+    HPC0201.PAC
+    PRL1632.PAC
+    R0201.PAC
+    R01005.PAC
+    R1218.PAC
+    R4527.PAC
+    VMTA55.PAC
+    VMTB60.PAC
+    VTA52.PAC
+    VTA53.PAC
+    VTA54.PAC
+    VTA55.PAC
+    VTA56.PAC
+    WSC0001.PAC
+    WSC01/2.PAC
+    WSC0002.PAC
+    WSC2515.PAC
+    WSC4527.PAC
+    WSC6927.PAC
+
+2014-09-08
+  * rcl.lbr: Eagle 7.1.1
+    added:
+    C01005.PAC
+    PRL1632.PAC
+    R01005.PAC
+    deleted:
+    C1005.PAC
+    R1005.PAC
+
+2014-08-28
+  * resistor.lbr: Eagle 7.1.1
+   delete R-TRIMM.DEV and copy new from rcl.lbr (corrected PAD names: TSM53YJ.PAC)
+
 2014-08-07
   * texas.lbr: Eagle 7.0.1
     added:
@@ -1045,8 +1526,8 @@ EAGLE Library ChangeLog
 2011-05-31
   * inductor-nkl.lbr: Eagle 5.11.1
     renamed packages:
-    B5Ø.PAC to B5O.PAC
-    B6Ø-PAC to B6O.PAC
+    B5Ø.PAC to B50.PAC
+    B6Ø-PAC to B60.PAC
 
 2011-05-26
   * texas.lbr: Eagle 5.11.1

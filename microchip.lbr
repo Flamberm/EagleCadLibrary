@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -28467,8 +28467,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/41364D.pdf</description>
 <connect gate="G$1" pin="RB3/AN9/C12IN2-/CPS3/CCP2/P2A/VLCD3" pad="36"/>
 <connect gate="G$1" pin="RB4/AN11/CPS4/COM0" pad="37"/>
 <connect gate="G$1" pin="RB5/AN13/CPS5/CCP3/P3A/T1G/COM1" pad="38"/>
-<connect gate="G$1" pin="RB6/ICSPCLK/ICDCLK/SEG14" pad="40"/>
-<connect gate="G$1" pin="RB7/ICSPDAT/ICDDAT/SEG13" pad="39"/>
+<connect gate="G$1" pin="RB6/ICSPCLK/ICDCLK/SEG14" pad="39"/>
+<connect gate="G$1" pin="RB7/ICSPDAT/ICDDAT/SEG13" pad="40"/>
 <connect gate="G$1" pin="RC4/SDI/SDA/T1G/SEG11" pad="23"/>
 <connect gate="G$1" pin="RC5/SDO/SEG10" pad="24"/>
 <connect gate="G$1" pin="RC6/TX/CK/SEG9" pad="25"/>
