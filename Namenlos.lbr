@@ -3597,6 +3597,70 @@ Source: Panasonic</description>
 <text x="-5.8112" y="5.759" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.8112" y="-7.537" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="EFD20_8PIN">
+<wire x1="-3.175" y1="3.81" x2="-3.175" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="-3.175" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="0" y1="6.35" x2="0" y2="-6.35" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="3.81" x2="-1.27" y2="3.81" width="0.254" layer="21"/>
+<wire x1="1.27" y1="2.794" x2="1.27" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="3.175" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="1.27" y1="2.794" x2="3.175" y2="2.794" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="3.175" y2="2.794" width="0.254" layer="21"/>
+<text x="-3.92" y="7.92" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-9.795" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.429" y="-6.882" size="1.778" layer="21" ratio="10">EF20</text>
+<text x="-5.89" y="5.85" size="1.27" layer="21" ratio="10">1</text>
+<text x="-6.39" y="-6.12" size="1.27" layer="21" ratio="10">4</text>
+<text x="5.255" y="-6.12" size="1.27" layer="21" ratio="10">5</text>
+<text x="4.255" y="5.85" size="1.27" layer="21" ratio="10">8</text>
+<rectangle x1="-3.175" y1="-3.81" x2="-1.27" y2="3.81" layer="21"/>
+<rectangle x1="1.27" y1="-2.54" x2="3.175" y2="2.794" layer="21"/>
+<wire x1="-10.595" y1="-7.42" x2="-7.42" y2="-11.23" width="0.127" layer="21" curve="90"/>
+<wire x1="-7.42" y1="-11.23" x2="7.42" y2="-11.23" width="0.127" layer="21"/>
+<wire x1="7.42" y1="-11.23" x2="10.595" y2="-7.42" width="0.127" layer="21" curve="90"/>
+<wire x1="10.595" y1="-7.42" x2="10.595" y2="8.69" width="0.127" layer="21"/>
+<wire x1="10.595" y1="8.69" x2="8.055" y2="11.23" width="0.127" layer="21" curve="90"/>
+<wire x1="8.055" y1="11.23" x2="-8.055" y2="11.23" width="0.127" layer="21"/>
+<wire x1="-8.055" y1="11.23" x2="-10.595" y2="9.325" width="0.127" layer="21" curve="90"/>
+<wire x1="-10.595" y1="9.325" x2="-10.595" y2="-7.42" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-5.08" x2="-5.08" y2="-7.62" width="0.127" layer="21" curve="90"/>
+<wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-7.62" x2="7.62" y2="-5.08" width="0.127" layer="21" curve="90"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.127" layer="21"/>
+<wire x1="7.62" y1="5.08" x2="5.08" y2="7.62" width="0.127" layer="21" curve="90"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="7.62" x2="-7.62" y2="5.08" width="0.127" layer="21" curve="90"/>
+<pad name="1" x="-9" y="7.62" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="2" x="-9" y="2.54" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="3" x="-9" y="-2.54" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="4" x="-9" y="-7.62" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="5" x="9" y="-7.62" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="6" x="9" y="-2.54" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="7" x="9" y="2.54" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="8" x="9" y="7.62" drill="1.1" diameter="1.9304" shape="octagon"/>
+<wire x1="7.18" y1="-11.245" x2="11.61" y2="-11.245" width="0.127" layer="21"/>
+<wire x1="11.61" y1="-11.245" x2="12.46" y2="-10.445" width="0.127" layer="21" curve="90"/>
+<wire x1="12.46" y1="-10.445" x2="12.46" y2="-6.365" width="0.127" layer="21"/>
+<wire x1="12.46" y1="-6.365" x2="11.225" y2="-6.365" width="0.127" layer="21"/>
+<wire x1="11.225" y1="-6.365" x2="10.59" y2="-7" width="0.127" layer="21" curve="90"/>
+<wire x1="7.18" y1="11.245" x2="11.61" y2="11.245" width="0.127" layer="22"/>
+<wire x1="11.61" y1="11.245" x2="12.46" y2="10.445" width="0.127" layer="22" curve="-90"/>
+<wire x1="12.46" y1="10.445" x2="12.46" y2="6.365" width="0.127" layer="22"/>
+<wire x1="12.46" y1="6.365" x2="11.225" y2="6.365" width="0.127" layer="22"/>
+<wire x1="11.225" y1="6.365" x2="10.59" y2="7" width="0.127" layer="22" curve="-90"/>
+<wire x1="-7.18" y1="11.245" x2="-11.61" y2="11.245" width="0.127" layer="21"/>
+<wire x1="-11.61" y1="11.245" x2="-12.46" y2="10.445" width="0.127" layer="21" curve="90"/>
+<wire x1="-12.46" y1="10.445" x2="-12.46" y2="6.365" width="0.127" layer="21"/>
+<wire x1="-12.46" y1="6.365" x2="-11.225" y2="6.365" width="0.127" layer="21"/>
+<wire x1="-11.225" y1="6.365" x2="-10.59" y2="7" width="0.127" layer="21" curve="90"/>
+<wire x1="-7.18" y1="-11.245" x2="-11.61" y2="-11.245" width="0.127" layer="22"/>
+<wire x1="-11.61" y1="-11.245" x2="-12.46" y2="-10.445" width="0.127" layer="22" curve="-90"/>
+<wire x1="-12.46" y1="-10.445" x2="-12.46" y2="-6.365" width="0.127" layer="22"/>
+<wire x1="-12.46" y1="-6.365" x2="-11.225" y2="-6.365" width="0.127" layer="22"/>
+<wire x1="-11.225" y1="-6.365" x2="-10.59" y2="-7" width="0.127" layer="22" curve="-90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LM2678T-ADJ">
@@ -6994,6 +7058,17 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <connect gate="G$1" pin="P1-2" pad="6"/>
 <connect gate="G$1" pin="S1-1" pad="3"/>
 <connect gate="G$1" pin="S1-2" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EFD20" package="EFD20_8PIN">
+<connects>
+<connect gate="G$1" pin="P1-1" pad="1"/>
+<connect gate="G$1" pin="P1-2" pad="4"/>
+<connect gate="G$1" pin="S1-1" pad="5"/>
+<connect gate="G$1" pin="S1-2" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
