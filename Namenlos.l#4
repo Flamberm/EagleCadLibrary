@@ -3834,6 +3834,20 @@ MAX3223-MAX3243.pdf</description>
 <rectangle x1="-4.4" y1="5.675" x2="-4.05" y2="7.225" layer="51"/>
 <rectangle x1="-5.05" y1="5.675" x2="-4.7" y2="7.225" layer="51"/>
 <rectangle x1="-5.7" y1="5.675" x2="-5.35" y2="7.225" layer="51"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4.75" y="3"/>
+<vertex x="4.75" y="3"/>
+<vertex x="4.75" y="1.27"/>
+<vertex x="7.62" y="1.27"/>
+<vertex x="7.62" y="-1.27"/>
+<vertex x="4.75" y="-1.27"/>
+<vertex x="4.75" y="-3"/>
+<vertex x="-4.75" y="-3"/>
+<vertex x="-4.75" y="-1.27"/>
+<vertex x="-7.62" y="-1.27"/>
+<vertex x="-7.62" y="1.27"/>
+<vertex x="-4.75" y="1.27"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -5664,6 +5678,33 @@ MAX3223-MAX3243.pdf</description>
 <text x="15.24" y="-27.686" size="1.778" layer="95">&gt;NAME</text>
 <text x="15.24" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VCCA" x="-33.02" y="-22.86" length="short" direction="pwr"/>
+</symbol>
+<symbol name="L6229">
+<wire x1="-12.7" y1="-25.4" x2="-12.7" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="25.4" x2="12.7" y2="25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="25.4" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-25.4" x2="-12.7" y2="-25.4" width="0.254" layer="94"/>
+<pin name="H1" x="-17.78" y="22.86" visible="pin" length="middle"/>
+<pin name="DIAG" x="-17.78" y="17.78" visible="pin" length="middle"/>
+<pin name="SENSEA" x="-17.78" y="12.7" visible="pin" length="middle"/>
+<pin name="RCOFF" x="-17.78" y="7.62" visible="pin" length="middle"/>
+<pin name="OUT1" x="-17.78" y="2.54" visible="pin" length="middle"/>
+<pin name="GND" x="0" y="-30.48" visible="pin" length="middle" rot="R90"/>
+<pin name="TACHO" x="-17.78" y="-2.54" visible="pin" length="middle"/>
+<pin name="RCPULSE" x="-17.78" y="-7.62" visible="pin" length="middle"/>
+<pin name="SENSEB" x="-17.78" y="-12.7" visible="pin" length="middle"/>
+<pin name="FWD/REV" x="-17.78" y="-17.78" visible="pin" length="middle"/>
+<pin name="EN" x="-17.78" y="-22.86" visible="pin" length="middle"/>
+<pin name="VREF" x="17.78" y="22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="BRAKE" x="17.78" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="VBOOT" x="17.78" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT3" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="VSB" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="VSA" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT2" x="17.78" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="VCP" x="17.78" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="H2" x="17.78" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="H3" x="17.78" y="-22.86" visible="pin" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7547,6 +7588,17 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <connect gate="IC" pin="VCC" pad="16"/>
 <connect gate="IC" pin="VCCA" pad="5"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L6229">
+<gates>
+</gates>
+<devices>
+<device name="PD" package="POWERSO-36">
 <technologies>
 <technology name=""/>
 </technologies>
