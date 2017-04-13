@@ -6972,13 +6972,13 @@ wide body 7.5 mm/JEDEC MO-119AA</description>
 <pin name="SC" x="-17.78" y="2.54" length="middle"/>
 <pin name="EN" x="-17.78" y="-2.54" length="middle"/>
 <pin name="REF" x="-17.78" y="-7.62" length="middle"/>
-<pin name="CSNINV" x="-17.78" y="-12.7" length="middle"/>
+<pin name="C-S" x="-17.78" y="-12.7" length="middle"/>
 <pin name="OSC" x="-17.78" y="-17.78" length="middle"/>
-<pin name="NINVAMP" x="-17.78" y="-22.86" length="middle"/>
-<pin name="INVAMP" x="-17.78" y="-27.94" length="middle"/>
-<pin name="PWMAMP" x="17.78" y="-27.94" length="middle" rot="R180"/>
+<pin name="EA-N" x="-17.78" y="-22.86" length="middle"/>
+<pin name="EA-I" x="-17.78" y="-27.94" length="middle"/>
+<pin name="EA-O" x="17.78" y="-27.94" length="middle" rot="R180"/>
 <pin name="FAULT!" x="17.78" y="-22.86" length="middle" rot="R180"/>
-<pin name="CSINV" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="CS-I" x="17.78" y="-17.78" length="middle" rot="R180"/>
 <pin name="GND" x="17.78" y="-12.7" length="middle" rot="R180"/>
 <pin name="VCC" x="17.78" y="-7.62" length="middle" rot="R180"/>
 <pin name="VC" x="17.78" y="-2.54" length="middle" rot="R180"/>
@@ -9507,18 +9507,18 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <connect gate="G$1" pin="BB" pad="20"/>
 <connect gate="G$1" pin="BRAKE" pad="23"/>
 <connect gate="G$1" pin="BT" pad="1"/>
+<connect gate="G$1" pin="C-S" pad="9"/>
 <connect gate="G$1" pin="CB" pad="19"/>
-<connect gate="G$1" pin="CSINV" pad="15"/>
-<connect gate="G$1" pin="CSNINV" pad="9"/>
+<connect gate="G$1" pin="CS-I" pad="15"/>
 <connect gate="G$1" pin="CT" pad="24"/>
+<connect gate="G$1" pin="EA-I" pad="12"/>
+<connect gate="G$1" pin="EA-N" pad="11"/>
+<connect gate="G$1" pin="EA-O" pad="13"/>
 <connect gate="G$1" pin="EN" pad="7"/>
 <connect gate="G$1" pin="FAULT!" pad="14"/>
 <connect gate="G$1" pin="FWD/REV" pad="3"/>
 <connect gate="G$1" pin="GND" pad="16"/>
-<connect gate="G$1" pin="INVAMP" pad="12"/>
-<connect gate="G$1" pin="NINVAMP" pad="11"/>
 <connect gate="G$1" pin="OSC" pad="10"/>
-<connect gate="G$1" pin="PWMAMP" pad="13"/>
 <connect gate="G$1" pin="REF" pad="8"/>
 <connect gate="G$1" pin="SA" pad="4"/>
 <connect gate="G$1" pin="SB" pad="5"/>
