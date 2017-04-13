@@ -4715,71 +4715,6 @@ http://www.bccomponents.com/</description>
 <text x="-3.39" y="3.63" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.425" y="-4.885" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SO24W">
-<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
-wide body 7.5 mm/JEDEC MO-119AA</description>
-<wire x1="-7.895" y1="5.9" x2="7.895" y2="5.9" width="0.1998" layer="39"/>
-<wire x1="7.895" y1="-5.9" x2="-7.895" y2="-5.9" width="0.1998" layer="39"/>
-<wire x1="-7.895" y1="-5.9" x2="-7.895" y2="5.9" width="0.1998" layer="39"/>
-<wire x1="7.78" y1="-3.7" x2="-7.78" y2="-3.7" width="0.2032" layer="51"/>
-<wire x1="-7.78" y1="-3.7" x2="-7.78" y2="-3.2" width="0.2032" layer="51"/>
-<wire x1="-7.78" y1="-3.2" x2="-7.78" y2="3.7" width="0.2032" layer="51"/>
-<wire x1="-7.78" y1="3.7" x2="7.78" y2="3.7" width="0.2032" layer="51"/>
-<wire x1="7.78" y1="-3.2" x2="-7.78" y2="-3.2" width="0.2032" layer="51"/>
-<wire x1="7.78" y1="3.7" x2="7.78" y2="-3.2" width="0.2032" layer="51"/>
-<wire x1="7.78" y1="-3.2" x2="7.78" y2="-3.7" width="0.2032" layer="51"/>
-<wire x1="7.895" y1="5.9" x2="7.895" y2="-5.9" width="0.1998" layer="39"/>
-<smd name="2" x="-5.715" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="13" x="6.985" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-6.985" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="-4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="-3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="14" x="5.715" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="12" x="6.985" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="11" x="5.715" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="-0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="9" x="3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="-1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="10" x="4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="15" x="4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="16" x="3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="17" x="1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="18" x="0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="19" x="-0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="20" x="-1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="21" x="-3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="22" x="-4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="23" x="-5.715" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="24" x="-6.985" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-6.985" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-6.985" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-7.2301" y1="-5.32" x2="-6.7399" y2="-3.8001" layer="51"/>
-<rectangle x1="-5.9601" y1="-5.32" x2="-5.4699" y2="-3.8001" layer="51"/>
-<rectangle x1="-4.6901" y1="-5.32" x2="-4.1999" y2="-3.8001" layer="51"/>
-<rectangle x1="-3.4201" y1="-5.32" x2="-2.9299" y2="-3.8001" layer="51"/>
-<rectangle x1="-2.1501" y1="-5.32" x2="-1.6599" y2="-3.8001" layer="51"/>
-<rectangle x1="-0.8801" y1="-5.32" x2="-0.3899" y2="-3.8001" layer="51"/>
-<rectangle x1="0.3899" y1="-5.32" x2="0.8801" y2="-3.8001" layer="51"/>
-<rectangle x1="1.6599" y1="-5.32" x2="2.1501" y2="-3.8001" layer="51"/>
-<rectangle x1="2.9299" y1="-5.32" x2="3.4201" y2="-3.8001" layer="51"/>
-<rectangle x1="4.1999" y1="-5.32" x2="4.6901" y2="-3.8001" layer="51"/>
-<rectangle x1="5.4699" y1="-5.32" x2="5.9601" y2="-3.8001" layer="51"/>
-<rectangle x1="6.7399" y1="-5.32" x2="7.2301" y2="-3.8001" layer="51"/>
-<rectangle x1="6.7399" y1="3.8001" x2="7.2301" y2="5.32" layer="51"/>
-<rectangle x1="5.4699" y1="3.8001" x2="5.9601" y2="5.32" layer="51"/>
-<rectangle x1="4.1999" y1="3.8001" x2="4.6901" y2="5.32" layer="51"/>
-<rectangle x1="2.9299" y1="3.8001" x2="3.4201" y2="5.32" layer="51"/>
-<rectangle x1="1.6599" y1="3.8001" x2="2.1501" y2="5.32" layer="51"/>
-<rectangle x1="0.3899" y1="3.8001" x2="0.8801" y2="5.32" layer="51"/>
-<rectangle x1="-0.8801" y1="3.8001" x2="-0.3899" y2="5.32" layer="51"/>
-<rectangle x1="-2.1501" y1="3.8001" x2="-1.6599" y2="5.32" layer="51"/>
-<rectangle x1="-3.4201" y1="3.8001" x2="-2.9299" y2="5.32" layer="51"/>
-<rectangle x1="-4.6901" y1="3.8001" x2="-4.1999" y2="5.32" layer="51"/>
-<rectangle x1="-5.9601" y1="3.8001" x2="-5.4699" y2="5.32" layer="51"/>
-<rectangle x1="-7.2301" y1="3.8001" x2="-6.7399" y2="5.32" layer="51"/>
-</package>
 </packages>
 <symbols>
 <symbol name="LM2678T-ADJ">
@@ -6944,50 +6879,6 @@ wide body 7.5 mm/JEDEC MO-119AA</description>
 <pin name="1" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="2" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="3" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
-<symbol name="IC-IR2103">
-<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<pin name="VCC" x="-12.7" y="7.62" length="middle"/>
-<pin name="HIN" x="-12.7" y="2.54" length="middle"/>
-<pin name="LIN!" x="-12.7" y="-2.54" length="middle"/>
-<pin name="COM" x="-12.7" y="-7.62" length="middle"/>
-<pin name="LO" x="12.7" y="-7.62" length="middle" rot="R180"/>
-<pin name="VS" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="HO" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="VB" x="12.7" y="7.62" length="middle" rot="R180"/>
-</symbol>
-<symbol name="IC-MC33035-D">
-<wire x1="-12.7" y1="-30.48" x2="12.7" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-30.48" x2="12.7" y2="30.48" width="0.254" layer="94"/>
-<wire x1="12.7" y1="30.48" x2="-12.7" y2="30.48" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="30.48" x2="-12.7" y2="-30.48" width="0.254" layer="94"/>
-<pin name="BT" x="-17.78" y="27.94" length="middle"/>
-<pin name="AT" x="-17.78" y="22.86" length="middle"/>
-<pin name="FWD/REV" x="-17.78" y="17.78" length="middle"/>
-<pin name="SA" x="-17.78" y="12.7" length="middle"/>
-<pin name="SB" x="-17.78" y="7.62" length="middle"/>
-<pin name="SC" x="-17.78" y="2.54" length="middle"/>
-<pin name="EN" x="-17.78" y="-2.54" length="middle"/>
-<pin name="REF" x="-17.78" y="-7.62" length="middle"/>
-<pin name="CSNINV" x="-17.78" y="-12.7" length="middle"/>
-<pin name="OSC" x="-17.78" y="-17.78" length="middle"/>
-<pin name="NINVAMP" x="-17.78" y="-22.86" length="middle"/>
-<pin name="INVAMP" x="-17.78" y="-27.94" length="middle"/>
-<pin name="PWMAMP" x="17.78" y="-27.94" length="middle" rot="R180"/>
-<pin name="FAULT!" x="17.78" y="-22.86" length="middle" rot="R180"/>
-<pin name="CSINV" x="17.78" y="-17.78" length="middle" rot="R180"/>
-<pin name="GND" x="17.78" y="-12.7" length="middle" rot="R180"/>
-<pin name="VCC" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="VC" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="CB" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="BB" x="17.78" y="7.62" length="middle" rot="R180"/>
-<pin name="AB" x="17.78" y="12.7" length="middle" rot="R180"/>
-<pin name="60/120!" x="17.78" y="17.78" length="middle" rot="R180"/>
-<pin name="BRAKE" x="17.78" y="22.86" length="middle" rot="R180"/>
-<pin name="CT" x="17.78" y="27.94" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9468,66 +9359,6 @@ Source: www.silabs.com .. CP2101.pdf / cp2102.pdf</description>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="IC-IR2103" prefix="IC-">
-<gates>
-<gate name="G$1" symbol="IC-IR2103" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SO8">
-<connects>
-<connect gate="G$1" pin="COM" pad="4"/>
-<connect gate="G$1" pin="HIN" pad="2"/>
-<connect gate="G$1" pin="HO" pad="6"/>
-<connect gate="G$1" pin="LIN!" pad="3"/>
-<connect gate="G$1" pin="LO" pad="8"/>
-<connect gate="G$1" pin="VB" pad="5"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-<connect gate="G$1" pin="VS" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="IC-MC33035-D">
-<gates>
-<gate name="G$1" symbol="IC-MC33035-D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SO24W">
-<connects>
-<connect gate="G$1" pin="60/120!" pad="22"/>
-<connect gate="G$1" pin="AB" pad="21"/>
-<connect gate="G$1" pin="AT" pad="2"/>
-<connect gate="G$1" pin="BB" pad="20"/>
-<connect gate="G$1" pin="BRAKE" pad="23"/>
-<connect gate="G$1" pin="BT" pad="1"/>
-<connect gate="G$1" pin="CB" pad="19"/>
-<connect gate="G$1" pin="CSINV" pad="15"/>
-<connect gate="G$1" pin="CSNINV" pad="9"/>
-<connect gate="G$1" pin="CT" pad="24"/>
-<connect gate="G$1" pin="EN" pad="7"/>
-<connect gate="G$1" pin="FAULT!" pad="14"/>
-<connect gate="G$1" pin="FWD/REV" pad="3"/>
-<connect gate="G$1" pin="GND" pad="16"/>
-<connect gate="G$1" pin="INVAMP" pad="12"/>
-<connect gate="G$1" pin="NINVAMP" pad="11"/>
-<connect gate="G$1" pin="OSC" pad="10"/>
-<connect gate="G$1" pin="PWMAMP" pad="13"/>
-<connect gate="G$1" pin="REF" pad="8"/>
-<connect gate="G$1" pin="SA" pad="4"/>
-<connect gate="G$1" pin="SB" pad="5"/>
-<connect gate="G$1" pin="SC" pad="6"/>
-<connect gate="G$1" pin="VC" pad="18"/>
-<connect gate="G$1" pin="VCC" pad="17"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
