@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -36,9 +36,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
@@ -4541,30 +4541,136 @@ Source: e_os_all.pdf</description>
 <text x="12.065" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="POWERFLAT-5X6">
-<smd name="2" x="-0.635" y="-2.685" dx="0.65" dy="1.25" layer="1"/>
-<smd name="1" x="-1.905" y="-2.685" dx="0.65" dy="1.25" layer="1"/>
-<smd name="3" x="0.635" y="-2.685" dx="0.65" dy="1.25" layer="1"/>
-<smd name="4" x="1.905" y="-2.685" dx="0.65" dy="1.25" layer="1"/>
-<smd name="D1" x="0.02" y="0.8" dx="4.7" dy="3.9" layer="1"/>
-<rectangle x1="2.3" y1="1.5" x2="2.7" y2="2.3" layer="1"/>
-<rectangle x1="2.3" y1="-0.95" x2="2.7" y2="-0.15" layer="1"/>
-<rectangle x1="-2.7" y1="1.5" x2="-2.3" y2="2.3" layer="1"/>
-<rectangle x1="-2.7" y1="-0.95" x2="-2.3" y2="-0.15" layer="1"/>
+<smd name="S2" x="-0.635" y="-2.685" dx="0.65" dy="1.25" layer="1"/>
+<smd name="S1" x="-1.905" y="-2.685" dx="0.65" dy="1.25" layer="1"/>
+<smd name="S3" x="0.635" y="-2.685" dx="0.65" dy="1.25" layer="1"/>
+<smd name="G" x="1.905" y="-2.685" dx="0.65" dy="1.25" layer="1"/>
+<smd name="D1" x="-0.03" y="0.83" dx="4" dy="3.5" layer="1"/>
 <wire x1="2.246" y1="-3" x2="-2.246" y2="-3" width="0.127" layer="21"/>
 <wire x1="-2.246" y1="-3" x2="-2.5" y2="-2.746" width="0.127" layer="21" curve="-90"/>
 <wire x1="-2.5" y1="-2.746" x2="-2.5" y2="2.746" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="2.746" x2="-2.246" y2="3" width="0.127" layer="21" curve="-90"/>
-<wire x1="-2.246" y1="3" x2="2.246" y2="3" width="0.127" layer="21"/>
 <wire x1="2.246" y1="3" x2="2.5" y2="2.746" width="0.127" layer="21" curve="-90"/>
-<wire x1="2.5" y1="2.746" x2="2.5" y2="-2.746" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-2.746" x2="2.246" y2="-3" width="0.127" layer="21" curve="-90"/>
 <circle x="0" y="2" radius="0.5" width="0.127" layer="23"/>
-<smd name="8" x="-1.925" y="3.026" dx="0.75" dy="0.55" layer="1"/>
-<smd name="7" x="-0.576" y="3.026" dx="0.75" dy="0.55" layer="1"/>
-<smd name="6" x="0.576" y="3.025" dx="0.75" dy="0.55" layer="1"/>
-<smd name="5" x="1.924" y="3.026" dx="0.75" dy="0.55" layer="1"/>
 <text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.127" layer="1">
+<vertex x="-2.64" y="-0.89"/>
+<vertex x="-2.27" y="-0.89"/>
+<vertex x="-2.27" y="-1.09"/>
+<vertex x="2.31" y="-1.09"/>
+<vertex x="2.31" y="-0.89"/>
+<vertex x="2.64" y="-0.89"/>
+<vertex x="2.64" y="-0.21"/>
+<vertex x="2.31" y="-0.21"/>
+<vertex x="2.31" y="1.57"/>
+<vertex x="2.64" y="1.57"/>
+<vertex x="2.64" y="2.24"/>
+<vertex x="2.31" y="2.24"/>
+<vertex x="2.31" y="2.69"/>
+<vertex x="2.24" y="2.69"/>
+<vertex x="2.24" y="3.24"/>
+<vertex x="1.61" y="3.24"/>
+<vertex x="1.61" y="2.69"/>
+<vertex x="0.89" y="2.69"/>
+<vertex x="0.89" y="3.24"/>
+<vertex x="0.26" y="3.24"/>
+<vertex x="0.26" y="2.69"/>
+<vertex x="-0.26" y="2.69"/>
+<vertex x="-0.26" y="3.24"/>
+<vertex x="-0.89" y="3.24"/>
+<vertex x="-0.89" y="2.69"/>
+<vertex x="-1.61" y="2.69"/>
+<vertex x="-1.61" y="3.24"/>
+<vertex x="-2.24" y="3.24"/>
+<vertex x="-2.24" y="2.7"/>
+<vertex x="-2.27" y="2.7"/>
+<vertex x="-2.27" y="2.24"/>
+<vertex x="-2.64" y="2.24"/>
+<vertex x="-2.64" y="1.56"/>
+<vertex x="-2.27" y="1.56"/>
+<vertex x="-2.27" y="-0.21"/>
+<vertex x="-2.64" y="-0.21"/>
+</polygon>
+<wire x1="2.5" y1="2.74" x2="2.5" y2="-2.75" width="0.127" layer="21"/>
+<wire x1="-2.24" y1="3" x2="2.26" y2="3" width="0.127" layer="21"/>
+<polygon width="0.127" layer="29">
+<vertex x="-2.64" y="-0.89"/>
+<vertex x="-2.27" y="-0.89"/>
+<vertex x="-2.27" y="-1.09"/>
+<vertex x="2.31" y="-1.09"/>
+<vertex x="2.31" y="-0.89"/>
+<vertex x="2.64" y="-0.89"/>
+<vertex x="2.64" y="-0.21"/>
+<vertex x="2.31" y="-0.21"/>
+<vertex x="2.31" y="1.57"/>
+<vertex x="2.64" y="1.57"/>
+<vertex x="2.64" y="2.24"/>
+<vertex x="2.31" y="2.24"/>
+<vertex x="2.31" y="2.69"/>
+<vertex x="2.24" y="2.69"/>
+<vertex x="2.24" y="3.24"/>
+<vertex x="1.61" y="3.24"/>
+<vertex x="1.61" y="2.69"/>
+<vertex x="0.89" y="2.69"/>
+<vertex x="0.89" y="3.24"/>
+<vertex x="0.26" y="3.24"/>
+<vertex x="0.26" y="2.69"/>
+<vertex x="-0.26" y="2.69"/>
+<vertex x="-0.26" y="3.24"/>
+<vertex x="-0.89" y="3.24"/>
+<vertex x="-0.89" y="2.69"/>
+<vertex x="-1.61" y="2.69"/>
+<vertex x="-1.61" y="3.24"/>
+<vertex x="-2.24" y="3.24"/>
+<vertex x="-2.24" y="2.7"/>
+<vertex x="-2.27" y="2.7"/>
+<vertex x="-2.27" y="2.24"/>
+<vertex x="-2.64" y="2.24"/>
+<vertex x="-2.64" y="1.56"/>
+<vertex x="-2.27" y="1.56"/>
+<vertex x="-2.27" y="-0.21"/>
+<vertex x="-2.64" y="-0.21"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-2.64" y="-0.89"/>
+<vertex x="-2.27" y="-0.89"/>
+<vertex x="-2.27" y="-1.09"/>
+<vertex x="2.31" y="-1.09"/>
+<vertex x="2.31" y="-0.89"/>
+<vertex x="2.64" y="-0.89"/>
+<vertex x="2.64" y="-0.21"/>
+<vertex x="2.31" y="-0.21"/>
+<vertex x="2.31" y="1.57"/>
+<vertex x="2.64" y="1.57"/>
+<vertex x="2.64" y="2.24"/>
+<vertex x="2.31" y="2.24"/>
+<vertex x="2.31" y="2.69"/>
+<vertex x="2.24" y="2.69"/>
+<vertex x="2.24" y="3.24"/>
+<vertex x="1.61" y="3.24"/>
+<vertex x="1.61" y="2.69"/>
+<vertex x="0.89" y="2.69"/>
+<vertex x="0.89" y="3.24"/>
+<vertex x="0.26" y="3.24"/>
+<vertex x="0.26" y="2.69"/>
+<vertex x="-0.26" y="2.69"/>
+<vertex x="-0.26" y="3.24"/>
+<vertex x="-0.89" y="3.24"/>
+<vertex x="-0.89" y="2.69"/>
+<vertex x="-1.61" y="2.69"/>
+<vertex x="-1.61" y="3.24"/>
+<vertex x="-2.24" y="3.24"/>
+<vertex x="-2.24" y="2.7"/>
+<vertex x="-2.27" y="2.7"/>
+<vertex x="-2.27" y="2.24"/>
+<vertex x="-2.64" y="2.24"/>
+<vertex x="-2.64" y="1.56"/>
+<vertex x="-2.27" y="1.56"/>
+<vertex x="-2.27" y="-0.21"/>
+<vertex x="-2.64" y="-0.21"/>
+</polygon>
 </package>
 <package name="CON-CT-06">
 <pad name="1" x="-5" y="0" drill="0.9" shape="long" rot="R90"/>
@@ -4915,12 +5021,12 @@ wide body 7.5 mm/JEDEC MO-119AA</description>
 <wire x1="5.9" y1="1.915" x2="5.9" y2="5.6" width="0.254" layer="21"/>
 <wire x1="-5.9" y1="5.6" x2="-5.9" y2="1.915" width="0.254" layer="21"/>
 <wire x1="5.9" y1="-10.15" x2="5.9" y2="-2.02" width="0.254" layer="21"/>
-<pad name="1" x="1.25" y="4.71" drill="0.95" shape="octagon"/>
-<pad name="2" x="-1.25" y="4.71" drill="0.95" shape="octagon"/>
-<pad name="3" x="-1.25" y="2.71" drill="0.95" shape="octagon"/>
-<pad name="4" x="1.25" y="2.71" drill="0.95" shape="octagon"/>
-<pad name="S1" x="-6.02" y="0" drill="2.3" diameter="2.9"/>
-<pad name="S2" x="6.02" y="0" drill="2.3" diameter="2.9"/>
+<pad name="1" x="1.25" y="4.71" drill="1.1" shape="octagon"/>
+<pad name="2" x="-1.25" y="4.71" drill="1.1" shape="octagon"/>
+<pad name="3" x="-1.25" y="2.71" drill="1.1" shape="octagon"/>
+<pad name="4" x="1.25" y="2.71" drill="1.1" shape="octagon"/>
+<pad name="S1" x="-6.02" y="0" drill="2.4" diameter="2.9"/>
+<pad name="S2" x="6.02" y="0" drill="2.4" diameter="2.9"/>
 <text x="-6.35" y="6.35" size="1.27" layer="25">&gt;NAME</text>
 <text x="7.62" y="-8.89" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <text x="-3.81" y="-2.04" size="0.4064" layer="21">E L E C T R O N I C S</text>
@@ -8200,9 +8306,9 @@ Source: www.supertex.com .. led_driver_ics_SG.pdf</description>
 </device>
 <device name="PF-6X5" package="POWERFLAT-5X6">
 <connects>
-<connect gate="G$1" pin="D" pad="5 6 7 8"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="1 2 3"/>
+<connect gate="G$1" pin="D" pad="D1"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S1 S2 S3"/>
 </connects>
 <technologies>
 <technology name=""/>
