@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -5793,6 +5793,35 @@ Source: Comchip Bridge Rectifiers B05S-G_B10S-G.pdf</description>
 <rectangle x1="0.875" y1="-3.505" x2="1.65" y2="-2.075" layer="51"/>
 <rectangle x1="-1.665" y1="-3.505" x2="-0.89" y2="-2.075" layer="51"/>
 </package>
+<package name="SCD-0705">
+<polygon width="0.2" layer="1">
+<vertex x="-4.445" y="-1.016"/>
+<vertex x="4.445" y="-1.016" curve="-90"/>
+<vertex x="0.254" y="-4.445"/>
+<vertex x="-0.254" y="-4.445" curve="-90"/>
+</polygon>
+<polygon width="0.2" layer="1">
+<vertex x="-4.445" y="1.016"/>
+<vertex x="4.445" y="1.016" curve="90"/>
+<vertex x="0.254" y="4.445"/>
+<vertex x="-0.254" y="4.445" curve="90"/>
+</polygon>
+<circle x="0" y="0" radius="3.937" width="0.1016" layer="21"/>
+<smd name="P$1" x="0" y="2.54" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$2" x="0" y="-2.54" dx="1.27" dy="0.635" layer="1"/>
+<polygon width="0.2" layer="29">
+<vertex x="-4.445" y="-1.016"/>
+<vertex x="4.445" y="-1.016" curve="-90"/>
+<vertex x="-0.254" y="-4.445"/>
+<vertex x="0.254" y="-4.445" curve="-90"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-4.445" y="1.016"/>
+<vertex x="4.445" y="1.016" curve="90"/>
+<vertex x="-0.254" y="4.445"/>
+<vertex x="0.254" y="4.445" curve="90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="LM2678T-ADJ">
@@ -9593,6 +9622,15 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="SMA" package="DO214AC">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="OP-AMP-1" prefix="IC">
@@ -9829,6 +9867,15 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 </technologies>
 </device>
 <device name="SL1016H" package="SL1016H">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0705" package="SCD-0705">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
