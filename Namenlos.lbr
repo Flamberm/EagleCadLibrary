@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -6397,6 +6397,31 @@ Source: Comchip Bridge Rectifiers B05S-G_B10S-G.pdf</description>
 <rectangle x1="-7.68" y1="4.82" x2="-7.12" y2="5.84" layer="25"/>
 <rectangle x1="6.71" y1="4.8" x2="7.27" y2="5.82" layer="25"/>
 </package>
+<package name="TCST1202">
+<wire x1="-5.95" y1="3.15" x2="-5.08" y2="3.15" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="3.15" x2="-1.55" y2="3.15" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="3.15" x2="1.55" y2="3.15" width="0.127" layer="21"/>
+<wire x1="1.55" y1="3.15" x2="5.95" y2="3.15" width="0.127" layer="21"/>
+<wire x1="5.95" y1="3.15" x2="5.95" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="5.95" y1="-3.15" x2="1.55" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-3.15" x2="-1.55" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-3.15" x2="-5.08" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-3.15" x2="-5.95" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="-5.95" y1="-3.15" x2="-5.95" y2="3.15" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="3.15" x2="-1.55" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-3.15" x2="1.55" y2="3.15" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="3.15" x2="-5.08" y2="-3.15" width="0.127" layer="21"/>
+<text x="-3.81" y="1.27" size="1.27" layer="21">+</text>
+<text x="2.54" y="-2.54" size="1.27" layer="21">+</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="21">E</text>
+<text x="2.54" y="1.27" size="1.27" layer="21">D</text>
+<text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="A" x="-3.8" y="1.27" drill="0.9"/>
+<pad name="C" x="-3.8" y="-1.27" drill="0.9"/>
+<pad name="+" x="3.8" y="-1.27" drill="0.9"/>
+<pad name="D" x="3.8" y="1.27" drill="0.9"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LM2678T-ADJ">
@@ -11863,6 +11888,24 @@ SOT130P210X100-4N</description>
 <connect gate="G$1" pin="MOSI" pad="DI/CMD"/>
 <connect gate="G$1" pin="SHILD" pad="SHILD1 SHILD2"/>
 <connect gate="G$1" pin="VDD" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OPTO-TCST1202">
+<gates>
+<gate name="G$1" symbol="OK" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TCST1202">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="COL" pad="+"/>
+<connect gate="G$1" pin="EMIT" pad="D"/>
 </connects>
 <technologies>
 <technology name=""/>
