@@ -6614,6 +6614,77 @@ Source: Comchip Bridge Rectifiers B05S-G_B10S-G.pdf</description>
 <pad name="S2-1" x="6.35" y="3.81" drill="0.9" shape="long"/>
 <pad name="S2-2" x="6.35" y="-3.81" drill="0.9" shape="long"/>
 </package>
+<package name="ETD39">
+<pad name="1" x="-17.78" y="-15.24" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="2" x="-12.7" y="-15.24" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="3" x="-7.62" y="-15.24" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="4" x="-2.54" y="-15.24" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="5" x="2.54" y="-15.24" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="6" x="7.62" y="-15.24" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="7" x="12.7" y="-15.24" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="8" x="17.78" y="-15.24" drill="1.1" diameter="1.9304" shape="octagon"/>
+<pad name="9" x="17.78" y="15.24" drill="1.1" diameter="1.9304" shape="octagon" rot="R180"/>
+<pad name="10" x="12.7" y="15.24" drill="1.1" diameter="1.9304" shape="octagon" rot="R180"/>
+<pad name="11" x="7.62" y="15.24" drill="1.1" diameter="1.9304" shape="octagon" rot="R180"/>
+<pad name="12" x="2.54" y="15.24" drill="1.1" diameter="1.9304" shape="octagon" rot="R180"/>
+<pad name="13" x="-2.54" y="15.24" drill="1.1" diameter="1.9304" shape="octagon" rot="R180"/>
+<pad name="14" x="-7.62" y="15.24" drill="1.1" diameter="1.9304" shape="octagon" rot="R180"/>
+<pad name="15" x="-12.7" y="15.24" drill="1.1" diameter="1.9304" shape="octagon" rot="R180"/>
+<pad name="16" x="-17.78" y="15.24" drill="1.1" diameter="1.9304" shape="octagon" rot="R180"/>
+<wire x1="-22.86" y1="-24.13" x2="22.86" y2="-24.13" width="0.6096" layer="21"/>
+<wire x1="22.86" y1="-24.13" x2="22.86" y2="-12.7" width="0.6096" layer="21"/>
+<wire x1="22.86" y1="-12.7" x2="22.86" y2="12.7" width="0.6096" layer="21"/>
+<wire x1="22.86" y1="12.7" x2="22.86" y2="24.13" width="0.6096" layer="21"/>
+<wire x1="22.86" y1="24.13" x2="-22.86" y2="24.13" width="0.6096" layer="21"/>
+<wire x1="-22.86" y1="24.13" x2="-22.86" y2="12.7" width="0.6096" layer="21"/>
+<wire x1="-22.86" y1="12.7" x2="-22.86" y2="-12.7" width="0.6096" layer="21"/>
+<wire x1="-22.86" y1="-12.7" x2="-22.86" y2="-24.13" width="0.6096" layer="21"/>
+<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-11.43" x2="7.62" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="12.7" width="0.127" layer="21"/>
+<wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="-12.7" x2="-15.24" y2="-12.7" width="0.6096" layer="21"/>
+<wire x1="-15.24" y1="-12.7" x2="-7.62" y2="-12.7" width="0.6096" layer="21"/>
+<wire x1="-7.62" y1="-12.7" x2="15.24" y2="-12.7" width="0.6096" layer="21"/>
+<wire x1="15.24" y1="-12.7" x2="22.86" y2="-12.7" width="0.6096" layer="21"/>
+<wire x1="-22.86" y1="12.7" x2="-15.24" y2="12.7" width="0.6096" layer="21"/>
+<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.6096" layer="21"/>
+<wire x1="15.24" y1="12.7" x2="22.86" y2="12.7" width="0.6096" layer="21"/>
+<wire x1="-15.24" y1="12.7" x2="-15.24" y2="-12.7" width="0.6096" layer="21"/>
+<wire x1="15.24" y1="-12.7" x2="15.24" y2="12.7" width="0.6096" layer="21"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="-11.43" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="-11.43" x2="7.62" y2="-11.43" width="1.27" layer="21"/>
+<wire x1="7.62" y1="-11.43" x2="7.62" y2="-10.16" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="-8.89" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="-8.89" x2="7.62" y2="-8.89" width="1.27" layer="21"/>
+<wire x1="7.62" y1="-8.89" x2="7.62" y2="-7.62" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-6.35" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="-6.35" x2="7.62" y2="-6.35" width="1.27" layer="21"/>
+<wire x1="7.62" y1="-6.35" x2="7.62" y2="-5.08" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="-3.81" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="-3.81" x2="7.62" y2="-3.81" width="1.27" layer="21"/>
+<wire x1="7.62" y1="-3.81" x2="7.62" y2="-2.54" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-1.27" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="-1.27" x2="7.62" y2="-1.27" width="1.27" layer="21"/>
+<wire x1="7.62" y1="-1.27" x2="7.62" y2="0" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="1.27" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="1.27" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="2.54" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="3.81" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="3.81" x2="7.62" y2="3.81" width="1.27" layer="21"/>
+<wire x1="7.62" y1="3.81" x2="7.62" y2="5.08" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="6.35" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="1.27" layer="21"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="7.62" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="8.89" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="8.89" x2="7.62" y2="8.89" width="1.27" layer="21"/>
+<wire x1="7.62" y1="8.89" x2="7.62" y2="10.16" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="11.43" width="1.27" layer="21"/>
+<wire x1="-7.62" y1="11.43" x2="7.62" y2="11.43" width="1.27" layer="21"/>
+<wire x1="7.62" y1="11.43" x2="7.62" y2="12.7" width="1.27" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LM2678T-ADJ">
@@ -10941,6 +11012,17 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <connect gate="G$1" pin="P1-2" pad="4"/>
 <connect gate="G$1" pin="S1-1" pad="5"/>
 <connect gate="G$1" pin="S1-2" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ETD39" package="ETD39">
+<connects>
+<connect gate="G$1" pin="P1-1" pad="1 2"/>
+<connect gate="G$1" pin="P1-2" pad="7 8"/>
+<connect gate="G$1" pin="S1-1" pad="14 15 16"/>
+<connect gate="G$1" pin="S1-2" pad="9 10 11"/>
 </connects>
 <technologies>
 <technology name=""/>
